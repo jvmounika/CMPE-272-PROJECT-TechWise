@@ -13,6 +13,7 @@ urlpatterns = [
     url(r'^signup/$', 'TechWise.views.signup', name='signup'), 
     url(r'^selection/$', 'TechWise.views.selection', name='selection'), #for Mounika
     url(r'^statistics/$', 'TechWise.views.statistics', name='statistics'),
+    url(r'^analytics/$', 'TechWise.analytics.main',name='analytics'),
 
     #Language Pages
     url(r'^reference/html/$', 'TechWise.views.html', name='html'),
