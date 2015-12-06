@@ -1,0 +1,332 @@
+<!-- {% load staticfiles %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>TechWise|Referrence</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- <link href="{%static 'css/home.css' %}" -->
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+    	h2{
+    		color: blue;
+    		font-family: Lucida;
+    	}
+    </style>
+   
+
+    <!-- CDN Code -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+
+    
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">TechWise</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="/">Home</a></li> -->
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="http://127.0.0.1:8000/event/">Event</a></li>
+            <li><a href="http://127.0.0.1:8000/reference/">Reference</a></li>
+{#            <li class="dropdown">#}
+{#              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>#}
+{#              <ul class="dropdown-menu">#}
+{#                <li><a href="#">Action</a></li>#}
+{#                <li><a href="#">Another action</a></li>#}
+{#                <li><a href="#">Something else here</a></li>#}
+{#                <li role="separator" class="divider"></li>#}
+{#                <li class="dropdown-header">Nav header</li>#}
+{#                <li><a href="#">Separated link</a></li>#}
+{#                <li><a href="#">One more separated link</a></li>#}
+{#              </ul>#}
+{#            </li>#}
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          {% if request.user.is_authenticated %}
+            <li><a href="">Logout</a></li>
+          {% else %}
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a> </li>
+              {% endif %}
+          </ul>
+        </div> <!--/.nav-collapse -->
+     </div>
+   </nav> 
+
+   <div class="container">
+      <!-- Jumbotron -->
+      <font color="#000070">
+      <!-- <div class="jumbotron">
+        <h1>Click on an option to learn more </h1>
+      </div> -->
+      
+  	  </font>
+
+      <!-- Example row of columns -->
+      <font color="#000070"> 
+      	
+      	<br/>
+      	<hr>
+      	<!-- <img width="450" height="80" border="0" src="http://1.bp.blogspot.com/-aOWEYCS8F_4/VQ-0V1Ux_3I/AAAAAAAABU0/D6vBtRAAnWU/s1600/shutterstock_52191559-1.jpg" alt="symbol"> -->
+      	<h2> Front End Design </h2>
+      	<hr>
+      </font>
+
+       <div class="row">
+        
+        <div class="col-lg-3">
+          <h3>HTML</h3>
+          <a href="http://127.0.0.1:8000/reference/html/">
+          <img width="250" height="180" border="10" src="http://tech.jakir.me/wp-content/uploads/2013/06/flags_DD_HTML.png" width="20" height="20" alt="symbol"> </a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>CSS</h3>
+          <a href="http://127.0.0.1:8000/reference/css/">
+          <img width="250" height="180" border="10" src="http://ultragraf.pl/images/css.png" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>JavaScript</h3>
+          	<a href="http://127.0.0.1:8000/reference/js/">
+  			<img width="250" height="180" border="10" src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/Javascript.png" width="20" height="20" alt="symbol"> </a> 
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Bootstrap</h3>
+          	<a href="http://127.0.0.1:8000/reference/bootstrap/">
+  			<img width="250" height="180" border="10" src="http://blog.tmimgcdn.com/wp-content/uploads/2012/12/Bootstrap-icon.jpg?9d7bd4" width="20" height="20" alt="symbol"> </a> 
+        </div>
+
+      </div>
+
+      <font color="#000070"> 
+      	<br/>
+      	<br/>
+      	<hr>
+      	<!-- <img width="450" height="80" border="0" src="http://1.bp.blogspot.com/-aOWEYCS8F_4/VQ-0V1Ux_3I/AAAAAAAABU0/D6vBtRAAnWU/s1600/shutterstock_52191559-1.jpg" alt="symbol"> -->
+      	<h2> Back End Design </h2>
+      	<hr>
+      </font>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <h3>Perl</h3>
+          	<a href="http://127.0.0.1:8000/reference/perl/">
+  			<img width="250" height="180" border="10" src="http://vivekyadav.me/wp-content/uploads/2015/10/perl.jpg" width="20" height="20" alt="symbol"> </a> 
+        </div>
+
+        <div class="col-lg-3">
+          <h3>PHP</h3>
+          <a href="http://127.0.0.1:8000/reference/php/">
+          <img width="250" height="180" border="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2000px-PHP-logo.svg.png" width="20" height="20" alt="symbol"> </a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>NodeJS</h3>
+          <a href="http://127.0.0.1:8000/reference/nodejs/">
+          <img width="250" height="180" border="10" src="https://davidwalsh.name/demo/nodejs.png" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Python</h3>
+          	<a href="http://127.0.0.1:8000/reference/python/">
+  			<img width="250" height="180" border="10" src="https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg" width="20" height="20" alt="symbol"> </a> 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- <h3>Perl</h3>
+          	<a href="https://www.edx.org/" target="_blank">
+  			<img width="250" height="180" border="10" src="http://vivekyadav.me/wp-content/uploads/2015/10/perl.jpg" width="20" height="20" alt="symbol"> </a>  -->
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Django</h3>
+          <a href="http://127.0.0.1:8000/reference/django/">
+          <img width="250" height="180" border="10" src="http://media.django.es.s3.amazonaws.com/nuevo/images/djangopony.png" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Ruby</h3>
+          <a href="http://127.0.0.1:8000/reference/ruby/">
+          <img width="250" height="180" border="10" src="http://engineering.yp.com/img/ruby-logo.png" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <!-- <h3>Python</h3>
+          	<a href="https://www.edx.org/" target="_blank">
+  			<img width="250" height="180" border="10" src="https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg" width="20" height="20" alt="symbol"> </a>  -->
+        </div>
+      </div>
+
+      <font color="#000070"> 
+      	<br/>
+      	<br/>
+      	<hr>
+      	<!-- <img width="450" height="80" border="0" src="http://1.bp.blogspot.com/-aOWEYCS8F_4/VQ-0V1Ux_3I/AAAAAAAABU0/D6vBtRAAnWU/s1600/shutterstock_52191559-1.jpg" alt="symbol"> -->
+      	<h2> Data Base </h2>
+      	<hr>
+      </font>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <h3>DB2</h3>
+          	<a href="http://127.0.0.1:8000/reference/db2/">
+  			<img width="250" height="180" border="10" src="https://s3.amazonaws.com/ibm.products.us-east-1/db2/db2_logo_image.png" width="20" height="20" alt="symbol"> </a> 
+        </div>
+
+        <div class="col-lg-3">
+          <h3>MangoDB</h3>
+          <a href="http://127.0.0.1:8000/reference/mangodb/">
+          <img width="250" height="180" border="10" src="https://s3.amazonaws.com/hackerleague-production/organizations/logos/512bb56489c01624c8000016/thumb.png?1361818978" width="20" height="20" alt="symbol"> </a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>PostgreSQL</h3>
+          <a href="http://127.0.0.1:8000/reference/postgresql/">
+          <img width="250" height="180" border="10" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>MySQL</h3>
+          	<a href="http://127.0.0.1:8000/reference/mysql/">
+  			<img width="250" height="180" border="10" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/640px-MySQL.svg.png" width="20" height="20" alt="symbol"> </a> 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- <h3>Perl</h3>
+          	<a href="https://www.edx.org/" target="_blank">
+  			<img width="250" height="180" border="10" src="http://vivekyadav.me/wp-content/uploads/2015/10/perl.jpg" width="20" height="20" alt="symbol"> </a>  -->
+        </div>
+
+        <div class="col-lg-3">
+          <h3>SQLite</h3>
+          <a href="http://127.0.0.1:8000/reference/sqlite/">
+          <img width="250" height="180" border="10" src="https://upload.wikimedia.org/wikipedia/commons/9/97/Sqlite-square-icon.svg" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Hadoop</h3>
+          <a href="http://127.0.0.1:8000/reference/hadoop/">
+          <img width="250" height="180" border="10" src="http://1.bp.blogspot.com/-umcm-DVaVTU/VlLpk2loNuI/AAAAAAAAFrM/RSp0DYWNxfE/s1600/spark_logo1.png" width="20" height="20" alt="symbol"></a>
+        </div>
+
+        <div class="col-lg-3">
+          <!-- <h3>Python</h3>
+          	<a href="https://www.edx.org/" target="_blank">
+  			<img width="250" height="180" border="10" src="https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg" width="20" height="20" alt="symbol"> </a>  -->
+        </div>
+      </div>
+
+
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+      	<font color="#000070"> 
+      	<br/>
+      	<br/>
+      	<hr>
+      	<!-- <img width="450" height="80" border="0" src="http://1.bp.blogspot.com/-aOWEYCS8F_4/VQ-0V1Ux_3I/AAAAAAAABU0/D6vBtRAAnWU/s1600/shutterstock_52191559-1.jpg" alt="symbol"> -->
+      	<h2> Online Tutorials </h2>
+      	<hr>
+      </font>
+        <div class="row">
+        <div class="col-lg-3">
+          <h3>edX</h3>
+         
+          	<a href="https://www.edx.org/" target="_blank">
+  			<img width="250" height="180" border="10" src="https://www.edx.org/sites/default/files/course/image/promoted/creating-a-course-with-edx-studio_378x225.jpg" width="20" height="20" alt="symbol"> </a> 
+  			
+        </div>
+        <div class="col-lg-3">
+          <h3>Udemy</h3>
+          <a href="https://www.udemy.com/" target="_blank">
+          <img width="250" height="180" border="10" src="https://index.tnwcdn.com/images/5302f1bf6d1b43386e11d7d028107db42ee70dc1.png" width="20" height="20" alt="symbol"> </a>
+     
+          <!-- <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+        <div class="col-lg-3">
+          <h3>Coursera</h3>
+          <a href="https://www.coursera.org/" target="_blank">
+          <img width="250" height="180" border="10" src="http://www.calit2.net/images/articles/2014/coursera.png" width="20" height="20" alt="symbol"></a>
+        </div>
+        <div class="col-lg-3">
+          <h3>codecademy</h3>
+         
+          	<a href="https://www.codecademy.com/" target="_blank">
+  			<img width="250" height="180" border="10" src="http://www.deletop.com/static//media/upload/1c939f8a-1e09-47d2-8f10-c3e831968f0e/48x48.png" width="20" height="20" alt="symbol"> </a> 
+  			
+        </div>
+      </div>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
