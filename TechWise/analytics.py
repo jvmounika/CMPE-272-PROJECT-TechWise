@@ -2,6 +2,7 @@ from django.shortcuts import render
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 import re
 import os
 
@@ -57,7 +58,8 @@ def main(request):
     x_pos = list(range(len(prg_langs)))
     width = 0.8
     fig, ax = plt.subplots()
-    plt.bar(x_pos, tweets_by_prg_lang, width, alpha=1, color='g')
+    jet = plt.get_cmap('jet')
+    plt.bar(x_pos, tweets_by_prg_lang, width, alpha=1, color=jet(np.linspace(0, 1.0, 6)))
     ax.set_ylabel('Number of tweets', fontsize=15)
     ax.set_title('Ranking:', fontsize=10, fontweight='bold')
     ax.set_xticks([p + 0.4 * width for p in x_pos])
