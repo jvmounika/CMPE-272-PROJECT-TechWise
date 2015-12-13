@@ -1,0 +1,58 @@
+{% extends "base_Sangit.html" %}
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    {% block style %}
+
+    {% endblock %}
+</style>
+{% block jumbotron %}
+<div class="row">
+    <div class="col-sm-8">
+    <div class="jumbotron">
+            <h1>Programing Languages</h1>
+            <p>This website is specifically made for people who are new to programming and looking for a career in the field of technology.</p>
+            <p>It is also for people who have partial knowledge of it and want to become a expert.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="" role="button">Join Us  &raquo;</a>
+            </p>
+        </div>
+        </div>
+        <div class="col-sm-4">
+            <iframe width="430" height="360" src="https://www.youtube.com/embed/OWsyrnOBsJs" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+</div>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+    <div class="col-md-3 pull-right">
+
+<p class="lead"> {{ title }}</p>
+
+<form method="POST" action="">{% csrf_token %}
+{{ form|crispy }}
+    <input class="btn btn-primary" href ="http://127.0.0.1:8000/selection/" type="submit" value="Sign Up">
+</form>
+    </div>
+    <div class="col-sm-3">
+        <p class="lead text-align-center">Created for Starters of all kind.</p>
+        <img src="https://nodejs.org/static/images/logos/nodejs-2560x1440.png" class="img-responsive"/>
+    </div>
+        <div class="col-sm-3">
+    <p class="lead text-align-center">Built with Django &amp; Bootstrap. </p>
+            <img src="https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg" class="img-responsive"/>
+
+    </div>
+    </div>
+{% endblock %}
+</body>
+</html>
