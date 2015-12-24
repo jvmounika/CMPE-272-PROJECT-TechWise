@@ -4,21 +4,27 @@ A web application to help people who are confused which programming language to 
 
 Dependecies and Technologies used: 
 
-● IBM bluemix
-● Python 2.7.6 
-● Javascript 
-● PostgreSQL
-● MongoDB shell version: 2.6.11b 
-● Pandas and matplotlib 
-● Watson API
+*  IBM bluemix
+*  Python 2.7.6 
+*  Javascript 
+*  PostgreSQL
+*  MongoDB shell version: 2.6.11b 
+*  Pandas and matplotlib 
+*  Watson API
 
 
 The Project was Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh Ranjan.
 Project team:-
-Nirbhay Kumar Singh(SJSU ID:010693917)(email: sknirbhay@gmail.com)
 
-Sangit Dhanani ( SJSU ID: 010724142 ) (email: sangitdhanani@gmail.com )
+1. Nirbhay Kumar Singh(SJSU ID:010693917)(email: sknirbhay@gmail.com)
 
-Tejaswi Goel (SJSU ID: 010698623)(email: tejaswigoel@gmail.com)
+2. Sangit Dhanani ( SJSU ID: 010724142 ) (email: sangitdhanani@gmail.com )
 
-Venkata Mounika Jilla(SJSU ID: 010091796)(email: jvmounika@gmail.com)
+3. Tejaswi Goel (SJSU ID: 010698623)(email: tejaswigoel@gmail.com)
+
+4. Venkata Mounika Jilla(SJSU ID: 010091796)(email: jvmounika@gmail.com)
+
+
+
+
+
