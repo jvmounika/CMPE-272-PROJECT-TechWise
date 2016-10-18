@@ -16,14 +16,14 @@ Dependecies and Technologies used:
 The Project was Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh Ranjan.
 Project team:-
 
-1. Nirbhay Kumar Singh(SJSU ID:010693917)(email: sknirbhay@gmail.com)
+1. Venkata Mounika Jilla(SJSU ID: 010091796)(email: jvmounika@gmail.com)
 
-2. Sangit Dhanani ( SJSU ID: 010724142 ) (email: sangitdhanani@gmail.com )
+2. Nirbhay Kumar Singh(SJSU ID:010693917)(email: sknirbhay@gmail.com)
 
-3. Tejaswi Goel (SJSU ID: 010698623)(email: tejaswigoel@gmail.com)
+3. Sangit Dhanani ( SJSU ID: 010724142 ) (email: sangitdhanani@gmail.com )
 
-4. Venkata Mounika Jilla(SJSU ID: 010091796)(email: jvmounika@gmail.com)
-
+4. Tejaswi Goel (SJSU ID: 010698623)(email: tejaswigoel@gmail.com)
+ 
 
 
 
